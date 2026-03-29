@@ -21,7 +21,7 @@ const packageRows = [
 const Packages: FC = () => (
   <div className="page-stack">
     <section className="content-card">
-      <span className="section-tag">Packages</span>
+      <p className="section-tag">Packages</p>
       <h1>当前官网使用的 npm 包</h1>
       <p>现在的站点只保留正式发布包依赖，便于版本管理、构建复现与生产部署。</p>
     </section>

@@ -18,7 +18,7 @@ const ecosystemItems = [
 const Ecosystem: FC = () => (
   <div className="page-stack">
     <section className="content-card">
-      <span className="section-tag">生态能力</span>
+      <p className="section-tag">生态能力</p>
       <h1>从应用迁移到官网的结构拆分</h1>
       <p>迁移后的站点把入口、路由、布局和内容页解耦，后续扩展成完整官网时会更容易维护。</p>
     </section>

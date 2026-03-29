@@ -26,7 +26,7 @@ const Home: FC = () => (
   <div className="page-stack">
     <section className="hero-card">
       <div className="hero-copy">
-        <span className="eyebrow">已迁移为独立官网应用</span>
+        <p className="eyebrow">已迁移为独立官网应用</p>
         <h1>Rue.js 官网入口已改为直接消费 npm 发布包</h1>
         <p className="hero-text">
           当前站点不再依赖 monorepo 内部开发版本，而是按真实用户使用方式接入 Rue，适合直接部署与对外展示。
@@ -65,7 +65,7 @@ useApp(RootApp)
 
     <section className="split-card">
       <div>
-        <span className="section-tag">官网目标</span>
+        <p className="section-tag">官网目标</p>
         <h2>把原来的应用入口整理成一个可独立构建的官方站点</h2>
         <p>
           这里保留了 Rue 应用的基础结构：应用入口、路由、布局与页面拆分；同时移除了依赖本地源码映射与开发期工作区包的部分。

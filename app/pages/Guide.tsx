@@ -10,7 +10,7 @@ const steps = [
 const Guide: FC = () => (
   <div className="page-stack">
     <section className="content-card">
-      <span className="section-tag">快速上手</span>
+      <p className="section-tag">快速上手</p>
       <h1>独立官网项目的最小接入方式</h1>
       <p>
         这个迁移版本采用真实发布包依赖，避免继续引用 monorepo 中的本地开发路径，能更准确反映外部用户的接入体验。
