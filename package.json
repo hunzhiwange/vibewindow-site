@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "oxlint": "oxlint -c ./.oxlintrc.json .",
+    "oxlint-fix": "oxlint -c ./.oxlintrc.json . --fix",
+    "format": "oxfmt .",
+    "format-check": "oxfmt --check ."
   },
   "dependencies": {
     "@rue-js/jsx-runtime": "^0.0.30",
