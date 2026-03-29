@@ -16,5 +16,5 @@
     "outDir": "./dist",
     "baseUrl": ".",
   },
-  "include": ["app/**/*.ts", "app/**/*.tsx", "app/**/*.d.ts"]
+  "include": ["app/**/*.ts", "app/**/*.tsx", "app/**/*.d.ts", "vite.config.ts"]
 }

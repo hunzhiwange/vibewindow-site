@@ -9,16 +9,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@rue-js/jsx-runtime": "^0.0.28",
-    "@rue-js/runtime": "^0.0.28",
-    "@rue-js/router": "^0.0.28",
-    "@rue-js/rue": "^0.0.28",
-    "@rue-js/runtime-vapor": "^0.0.28"
+    "@rue-js/jsx-runtime": "^0.0.29",
+    "@rue-js/runtime": "^0.0.29",
+    "@rue-js/router": "^0.0.29",
+    "@rue-js/rue": "^0.0.29",
+    "@rue-js/runtime-vapor": "^0.0.29",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "daisyui": "^5.5.11"
   },
   "devDependencies": {
     "@swc/core": "^1.15.3",
-    "@rue-js/jsx-dev-runtime": "^0.0.28",
-    "@rue-js/vite-plugin-rue": "^0.0.28",
+    "@rue-js/jsx-dev-runtime": "^0.0.29",
+    "@rue-js/vite-plugin-rue": "^0.0.29",
     "typescript": "^5.9.3",
     "vite": "^8.0.3",
     "@tailwindcss/typography": "^0.5.19",

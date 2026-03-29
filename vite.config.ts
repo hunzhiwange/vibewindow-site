@@ -8,7 +8,7 @@ export default defineConfig({
     conditions: ['import', 'module', 'browser', 'default'],
   },
   plugins: [
-    wasm(), 
+    wasm(),
     tailwindcss() as any,
     VitePluginRue({
       include: ['/app/'],
